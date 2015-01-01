@@ -1,0 +1,4 @@
+C:\Users\koleso\Desktop\Aeroport\AirModel\bin\Debug\AirModel.dll
+C:\Users\koleso\Desktop\Aeroport\AirModel\bin\Debug\AirModel.pdb
+C:\Users\koleso\Desktop\Aeroport\AirModel\obj\Debug\AirModel.dll
+C:\Users\koleso\Desktop\Aeroport\AirModel\obj\Debug\AirModel.pdb
