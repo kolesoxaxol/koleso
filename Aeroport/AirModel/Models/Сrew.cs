@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AirModel.Models
 {
-    public class Crew
+    public class Crew : IGenericModel
     {
         public int Id { get; set; }
         public string Name {get;set;}

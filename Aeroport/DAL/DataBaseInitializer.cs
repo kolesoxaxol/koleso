@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    class DataBaseInitializer : DropCreateDatabaseAlways<MainContext>
+    public class DataBaseInitializer : DropCreateDatabaseAlways<MainContext>
     {
         protected override void Seed(MainContext context)
         { context.SaveChanges(); }

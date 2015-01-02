@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="DataBaseInitializer.cs" />
     <Compile Include="GenericRepository.cs" />
-    <Compile Include="IGenericModel.cs" />
     <Compile Include="IGenericRepository.cs" />
     <Compile Include="MainContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

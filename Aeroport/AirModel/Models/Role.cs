@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AirModel.Models
 {
-    public class Role
+    public class Role : IGenericModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
