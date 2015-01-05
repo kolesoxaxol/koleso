@@ -8,3 +8,13 @@ C:\Users\koleso\Desktop\Aeroport\DAL\bin\Debug\AirModel.pdb
 C:\Users\koleso\Desktop\Aeroport\DAL\bin\Debug\EntityFramework.xml
 C:\Users\koleso\Desktop\Aeroport\DAL\obj\Debug\DAL.dll
 C:\Users\koleso\Desktop\Aeroport\DAL\obj\Debug\DAL.pdb
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\DAL.dll.config
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\DAL.dll
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\DAL.pdb
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\AirModel.dll
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\EntityFramework.dll
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\AirModel.pdb
+C:\Users\koleso\Desktop\new\Aeroport\DAL\bin\Debug\EntityFramework.xml
+C:\Users\koleso\Desktop\new\Aeroport\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\koleso\Desktop\new\Aeroport\DAL\obj\Debug\DAL.dll
+C:\Users\koleso\Desktop\new\Aeroport\DAL\obj\Debug\DAL.pdb

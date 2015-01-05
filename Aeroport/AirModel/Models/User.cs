@@ -7,11 +7,23 @@ namespace AirModel.Models
 {
     public class User : IGenericModel
     {
-        public int Id { get; set; }
-        public string Surname { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
 
-        public List<Role> Roles { get; set; }
+        public int Id { get; set; }
+
+        public string Login { get; set; }
+
+        public string Password { get; set; }
+
+        public bool IsPersistent { get; set; }
+
+        public string Email { get; set; }
+
+        public string AvatarPath { get; set; }
+
+        public DateTime Birthdate { get; set; }
+
+        public virtual ICollection<Role> UserRoles { get; set; }
+
+       
     }
 }

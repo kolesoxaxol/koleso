@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.UnitOfWork
 {
-    public class UnitOfWork:IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly MainContext _context;
 
@@ -36,7 +36,7 @@ namespace BusinessLogicLayer.UnitOfWork
             }
         }
 
-        public GenericRepository<City> BanUserRepository
+        public GenericRepository<City> CityRepository
         {
             get { return _cityRepository ?? (_cityRepository = new GenericRepository<City>(_context)); }
             set
@@ -45,7 +45,7 @@ namespace BusinessLogicLayer.UnitOfWork
             }
         }
 
-        public GenericRepository<DispatcherRequest> BanUserRepository
+        public GenericRepository<DispatcherRequest> DispatcherRequestRepository
         {
             get { return _dispatcherRequestRepository ?? (_dispatcherRequestRepository = new GenericRepository<DispatcherRequest>(_context)); }
             set
@@ -54,7 +54,7 @@ namespace BusinessLogicLayer.UnitOfWork
             }
         }
 
-        public GenericRepository<Flight> BanUserRepository
+        public GenericRepository<Flight> FlightRepository
         {
             get { return _flightRepository ?? (_flightRepository = new GenericRepository<Flight>(_context)); }
             set
@@ -63,7 +63,7 @@ namespace BusinessLogicLayer.UnitOfWork
             }
         }
 
-        public GenericRepository<Position> BanUserRepository
+        public GenericRepository<Position> PositionRepository
         {
             get { return _positionRepository ?? (_positionRepository = new GenericRepository<Position>(_context)); }
             set
@@ -72,7 +72,7 @@ namespace BusinessLogicLayer.UnitOfWork
             }
         }
 
-        public GenericRepository<Register> BanUserRepository
+        public GenericRepository<Register> RegisterRepository
         {
             get { return _registerRepository ?? (_registerRepository = new GenericRepository<Register>(_context)); }
             set
@@ -99,13 +99,40 @@ namespace BusinessLogicLayer.UnitOfWork
             }
         }
 
-        public GenericRepository<Crew> BanUserRepository
+        public GenericRepository<Crew> CrewRepository
         {
             get { return _crewRepository ?? (_crewRepository = new GenericRepository<Crew>(_context)); }
             set
             {
                 _crewRepository = value;
             }
+        }
+
+        public void Save()
+        {
+            _context.SaveChanges();
+          
+        }
+
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    _context.Dispose();
+
+                }
+            }
+            _disposed = true;
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }

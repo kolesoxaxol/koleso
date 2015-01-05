@@ -1,0 +1,12 @@
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll.config
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\AirModel.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\DAL.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\AirModel.pdb
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\DAL.pdb
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

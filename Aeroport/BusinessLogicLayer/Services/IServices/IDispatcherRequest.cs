@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.Services.IServices
 {
-    public interface IDispatcherRequest
+    public interface IDispatcherRequestService
     {
     }
 }
