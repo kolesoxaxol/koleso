@@ -203,3 +203,10 @@ C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\ru\System.Spatial.resources.
 C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\obj\Debug\DiplomWork.pdb
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\AutoMapper.Net4.dll
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\AutoMapper.dll
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\NLog.dll
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\NLog.Interface.dll
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\AutoMapper.xml
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\NLog.xml
+C:\Users\koleso\Desktop\new\Aeroport\DiplomWork\bin\NLog.Interface.xml

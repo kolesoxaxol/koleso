@@ -2,8 +2,7 @@
 
 namespace DiplomWork.Filters
 {
-    public class ExceptionControllerAttribute
-    {
+  
         public class ExceptionControllerAttribute : FilterAttribute, IExceptionFilter
         {
 
@@ -25,5 +24,5 @@ namespace DiplomWork.Filters
                 }
             }
         }
-    }
+  
 }

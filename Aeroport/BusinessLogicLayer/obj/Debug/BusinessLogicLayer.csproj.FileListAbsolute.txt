@@ -10,3 +10,8 @@ C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\DAL.pdb
 C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\EntityFramework.xml
 C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
 C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\Intertech.Validation.AA.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\NLog.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\NLog.Interface.dll
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\NLog.xml
+C:\Users\koleso\Desktop\new\Aeroport\BusinessLogicLayer\bin\Debug\NLog.Interface.xml

@@ -14,7 +14,7 @@ using System.Web.Mvc;
 namespace Yevhenii_KoliesnikTask1.Controllers
 {
     [AllowAnonymous]
-    [DiplomWork.Filters.ExceptionControllerAttribute.ExceptionController]
+    [DiplomWork.Filters.ExceptionControllerAttribute]
     public class AutentificationController : BaseController
     {
         private const string CookieName = "AUTH_COOKIE";
