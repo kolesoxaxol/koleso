@@ -1,4 +1,5 @@
 ﻿using AirModel.Models;
+using AirModel.SiteLocalization;
 using DAL;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,7 @@ namespace BusinessLogicLayer.UnitOfWork
         private GenericRepository<Role> _roleRepository;
         private GenericRepository<User> _userRepository;
         private GenericRepository<Crew> _crewRepository;
+        private GenericRepository<Language> _languageRepository;
 
         public GenericRepository<AirPlane> AirPlaneRepository
         {
@@ -105,6 +107,15 @@ namespace BusinessLogicLayer.UnitOfWork
             set
             {
                 _crewRepository = value;
+            }
+        }
+
+        public GenericRepository<Language> LanguageRepository
+        {
+            get { return _languageRepository ?? (_languageRepository = new GenericRepository<Language>(_context)); }
+            set
+            {
+                _languageRepository = value;
             }
         }
 

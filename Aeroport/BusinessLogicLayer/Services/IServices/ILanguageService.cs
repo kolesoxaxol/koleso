@@ -1,0 +1,16 @@
+﻿using AirModel.SiteLocalization;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BusinessLogicLayer.Services.IServices
+{
+    public interface ILanguageService
+    {
+        Language Get(string langCode);
+
+        List<Language> GetAllLanguages();
+    }
+}

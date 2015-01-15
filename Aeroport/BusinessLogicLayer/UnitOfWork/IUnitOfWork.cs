@@ -1,4 +1,5 @@
 ﻿using AirModel.Models;
+using AirModel.SiteLocalization;
 using DAL;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace BusinessLogicLayer.UnitOfWork
         GenericRepository<Role> RoleRepository { get; set; }
         GenericRepository<User> UserRepository { get; set; }
         GenericRepository<Crew> CrewRepository { get; set; }
+        GenericRepository<Language> LanguageRepository { get; set; }
         void Save();
         
     }

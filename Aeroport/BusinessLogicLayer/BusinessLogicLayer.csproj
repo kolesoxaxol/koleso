@@ -65,8 +65,10 @@
     <Compile Include="Services\IServices\ICrewService.cs" />
     <Compile Include="Services\IServices\IDispatcherRequest.cs" />
     <Compile Include="Services\IServices\IFlightService.cs" />
+    <Compile Include="Services\IServices\ILanguageService.cs" />
     <Compile Include="Services\IServices\IPositionService.cs" />
     <Compile Include="Services\IServices\IRegisterService.cs" />
+    <Compile Include="Services\LanguageService.cs" />
     <Compile Include="Services\PositionService.cs" />
     <Compile Include="Services\RegisterService.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />

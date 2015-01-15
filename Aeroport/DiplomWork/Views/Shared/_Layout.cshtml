@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-       <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,16 +11,48 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="span2">
-             @RenderBody()
-                
+
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img src="../../Images/logo.png" class="img-rounded" alt="logo" width="50px" height="50px">
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                        <li class="pull-right">
+                            @Html.Action("UserLogin", "Autentification")
+                        </li>
+
+                    </ul>
+                    <div class="container">
+                        <ul class="nav nav-pills pull-right">
+                            @Html.Partial("LangMenu")
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="span10">
-                <a href="#" class="btn btn-primary btn-large">Click Here</a>
-             
+
+        </nav>
+        <div class="jumbotron">
+            <h3>Эту часть можно убрать уменьшить добавить сюда картинку хз короче</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-2" style="background-color: lavender;">
+
+               @Html.Partial("_Filters")
             </div>
+            <div class="col-md-10" style="background-color: lavender;">
+                <p><strong>Note: On a large screen the content will be displayed as a three-column layout. (Just enlarge the browser window to see the effect). However, the content will automatically adjust itself into a single-column layout on a small screen. So, with Bootstrap, our page is now responsive to the screen size and adjusts itself accordingly.</strong></p>
+                @RenderBody()
+            </div>
+
         </div>
     </div>
+
 </body>
 </html>

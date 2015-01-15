@@ -15,7 +15,8 @@ namespace DiplomWork
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
+                url: "{lang}{controller}/{action}/{id}",
+                constraints : new { lang = @"ru|en" },
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
